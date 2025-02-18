@@ -1,30 +1,107 @@
-<table style="width: 100%; max-width: 500px; font-family: 'Inter', Arial, sans-serif; border-collapse: collapse;">
-<tbody>
-<tr><!-- Profile Image with Padding -->
-<td style="width: 120px; padding: 10px 20px 10px 0; vertical-align: middle;"><img style="border-radius: 50%;" src="https://iili.io/2yOuSp4.png" alt="Jared Uyehara" width="143" height="143" /></td>
-<!-- Name, Title, and Contact Info -->
-<td style="vertical-align: middle; padding-left: 20px; border-left: 2px solid #99CA3C;">
-<p style="margin: 0; font-size: 18px; font-weight: 600; color: #333; font-family: 'Poppins', Arial, sans-serif;">Jared Uyehara</p>
-<p style="margin: 0; font-size: 14px; color: #666; font-family: 'Poppins', Arial, sans-serif;">Creative Director</p>
-<table style="margin-top: 10px; font-family: 'Inter', Arial, sans-serif;">
-<tbody>
-<tr>
-<td style="display: inline-block;"><img style="vertical-align: middle; filter: brightness(0) saturate(100%) invert(50%) sepia(0%) saturate(0%) hue-rotate(240deg);" src="https://cdn-icons-png.flaticon.com/16/646/646094.png" width="16" /></td>
-<td><a style="color: #666; text-decoration: none;" href="mailto:jared.uyehara@thebackninegolf.com">jared.uyehara@thebackninegolf.com</a></td>
-</tr>
-<tr>
-<td style="display: inline-block;"><img style="vertical-align: middle; filter: brightness(0) saturate(100%) invert(50%) sepia(0%) saturate(0%) hue-rotate(240deg);" src="https://cdn-icons-png.flaticon.com/16/1006/1006771.png" width="16" /></td>
-<td><a style="color: #666; text-decoration: none;" href="https://thebackninegolf.com">thebackninegolf.com</a></td>
-</tr>
-<tr>
-<td style="display: inline-block;"><img style="vertical-align: middle; filter: brightness(0) saturate(100%) invert(50%) sepia(0%) saturate(0%) hue-rotate(240deg);" src="https://cdn-icons-png.flaticon.com/16/159/159832.png" width="16" /></td>
-<td><a style="color: #666; text-decoration: none;" href="tel:+14358791433">435-879-1433</a></td>
-</tr>
-</tbody>
-</table>
-<!-- Social Media Icons (Updated to Remove Dashes) -->
-<p style="margin-top: 10px;"><span style="display: inline-block;"> <a href="https://www.facebook.com/indoorgolfstudio" target="_blank" rel="noopener"> <img style="margin-right: 8px;" src="https://img1.gimm.io/assets/social/96/native/13/facebook.png" width="24" height="24" /> </a> </span> <span style="display: inline-block;"> <a href="https://www.youtube.com/@thebackninegolf" target="_blank" rel="noopener"> <img style="margin-right: 8px;" src="https://img1.gimm.io/assets/social/96/native/13/youtube.png" width="24" height="24" /> </a> </span> <span style="display: inline-block;"> <a href="https://www.linkedin.com/company/backninegolf/" target="_blank" rel="noopener"> <img style="margin-right: 8px;" src="https://img1.gimm.io/assets/social/96/native/13/linkedin.png" width="24" height="24" /> </a> </span> <span style="display: inline-block;"> <a href="https://www.instagram.com/thebackninegolf/" target="_blank" rel="noopener"> <img style="margin-right: 8px;" src="https://img1.gimm.io/assets/social/96/native/13/instagram.png" width="24" height="24" /> </a> </span></p>
-</td>
-</tr>
-</tbody>
-</table>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back Nine Golf Email Signature Generator</title>
+    <style>
+        body { font-family: 'Inter', Arial, sans-serif; max-width: 500px; margin: auto; padding: 20px; text-align: center; background-color: #f4f4f4; }
+        label { display: block; margin-top: 4px; font-weight: bold; text-align: left; font-size: 13px; }
+        input { width: 100%; padding: 5px; margin-top: 2px; border-radius: 4px; border: 1px solid #ccc; font-size: 13px; }
+        button { margin-top: 8px; padding: 8px; background-color: #99CA3C; border: none; color: white; font-size: 14px; cursor: pointer; border-radius: 4px; }
+        button:hover { background-color: #88B92E; }
+        .signature-box, .preview-box { margin-top: 10px; padding: 10px; border-radius: 6px; border: 1px solid #ddd; background: #fff; text-align: left; box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); }
+        .info-table img { width: 14px; height: 14px; margin-right: 4px; filter: brightness(0) saturate(100%) invert(50%) sepia(0%) saturate(0%) hue-rotate(240deg); }
+        .social-icons img { width: 18px; height: 18px; margin: 0 3px; }
+        .social-options { display: flex; justify-content: center; align-items: center; gap: 4px; margin-top: 6px; }
+        .social-options label { display: flex; align-items: center; gap: 2px; cursor: pointer; }
+        .social-options img { width: 14px; height: 14px; }
+        .btn-group { display: flex; justify-content: center; gap: 8px; margin-top: 8px; }
+    </style>
+</head>
+<body>
+    <h2>Back Nine Golf Email Signature Generator</h2>
+    <p>Fill in your details below to generate your email signature.</p>
+    
+    <label for="name">Full Name</label>
+    <input type="text" id="name" placeholder="John Doe">
+
+    <label for="title">Job Title</label>
+    <input type="text" id="title" placeholder="Creative Director">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="your.email@thebackninegolf.com">
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" placeholder="(123) 456-7890">
+    
+    <label for="website">Website</label>
+    <input type="url" id="website" value="https://thebackninegolf.com">
+
+    <label for="location">Location</label>
+    <input type="text" id="location" placeholder="123 Golf St, City, State">
+    
+    <label for="image">Profile Image</label>
+    <input type="file" id="imageUpload" accept="image/*">
+    <input type="url" id="image" placeholder="https://iili.io/2yOuSp4.png">
+    
+    <div class="social-options">
+        <label><input type="checkbox" id="facebookToggle" checked> <img src="https://img1.gimm.io/assets/social/96/native/13/facebook.png"></label>
+        <label><input type="checkbox" id="instagramToggle" checked> <img src="https://img1.gimm.io/assets/social/96/native/13/instagram.png"></label>
+        <label><input type="checkbox" id="youtubeToggle" checked> <img src="https://img1.gimm.io/assets/social/96/native/13/youtube.png"></label>
+        <label><input type="checkbox" id="linkedinToggle" checked> <img src="https://img1.gimm.io/assets/social/96/native/13/linkedin.png"></label>
+    </div>
+
+    <div class="btn-group">
+        <button onclick="generateSignature()">Generate Signature</button>
+        <button onclick="resetForm()">Reset</button>
+    </div>
+
+    <h3>Signature Preview:</h3>
+    <div class="preview-box" id="preview-box" style="display: none;">
+        <div id="signature-preview"></div>
+    </div>
+    <button onclick="copySignature()">Copy Signature</button>
+    
+    <script>
+        function generateSignature() {
+            const name = document.getElementById("name").value;
+            const title = document.getElementById("title").value;
+            const email = document.getElementById("email").value;
+            const phone = document.getElementById("phone").value;
+            const website = document.getElementById("website").value;
+            const location = document.getElementById("location").value;
+            let image = document.getElementById("image").value || "https://iili.io/2yOuSp4.png";
+            
+            const contactInfo = `
+                <p style="margin: 4px 0;"><img src="https://cdn-icons-png.flaticon.com/16/646/646094.png"> <a href="mailto:${email}">${email}</a></p>
+                <p style="margin: 4px 0;"><img src="https://cdn-icons-png.flaticon.com/16/159/159832.png"> ${phone}</p>
+                <p style="margin: 4px 0;"><img src="https://cdn-icons-png.flaticon.com/16/1006/1006771.png"> <a href="${website}">${website}</a></p>
+                <p style="margin: 4px 0;"><img src="https://cdn-icons-png.flaticon.com/16/684/684908.png"> ${location}</p>
+            `;
+            
+            const socialIcons = `${document.getElementById("facebookToggle").checked ? '<a href="https://www.facebook.com/indoorgolfstudio" target="_blank"><img src="https://img1.gimm.io/assets/social/96/native/13/facebook.png"></a>' : ''}
+                                  ${document.getElementById("youtubeToggle").checked ? '<a href="https://www.youtube.com/@thebackninegolf" target="_blank"><img src="https://img1.gimm.io/assets/social/96/native/13/youtube.png"></a>' : ''}
+                                  ${document.getElementById("linkedinToggle").checked ? '<a href="https://www.linkedin.com/company/backninegolf/" target="_blank"><img src="https://img1.gimm.io/assets/social/96/native/13/linkedin.png"></a>' : ''}
+                                  ${document.getElementById("instagramToggle").checked ? '<a href="https://www.instagram.com/thebackninegolf/" target="_blank"><img src="https://img1.gimm.io/assets/social/96/native/13/instagram.png"></a>' : ''}`;
+            
+            const signatureHTML = `
+                <div class="signature-box">
+                    <table style="width: 100%; max-width: 480px; font-family: 'Inter', Arial, sans-serif; border-collapse: collapse;">
+                        <tr>
+                            <td style="width: 100px; padding: 6px 12px; vertical-align: middle;"><img style="border-radius: 50%;" src="${image}" width="120" height="120" /></td>
+                            <td style="vertical-align: middle; padding-left: 12px; border-left: 2px solid #99CA3C;">
+                                <p style="margin: 6px 0;">${name}</p>
+                                <p style="margin: 6px 0;">${title}</p>
+                                ${contactInfo}
+                                <div class="social-icons">${socialIcons}</div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>`;
+            document.getElementById("signature-preview").innerHTML = signatureHTML;
+            document.getElementById("preview-box").style.display = "block";
+        }
+    </script>
+</body>
+</html>
