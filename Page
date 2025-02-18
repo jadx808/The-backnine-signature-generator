@@ -1,0 +1,30 @@
+<table style="width: 100%; max-width: 500px; font-family: 'Inter', Arial, sans-serif; border-collapse: collapse;">
+<tbody>
+<tr><!-- Profile Image with Padding -->
+<td style="width: 120px; padding: 10px 20px 10px 0; vertical-align: middle;"><img style="border-radius: 50%;" src="https://iili.io/2yOuSp4.png" alt="Jared Uyehara" width="143" height="143" /></td>
+<!-- Name, Title, and Contact Info -->
+<td style="vertical-align: middle; padding-left: 20px; border-left: 2px solid #99CA3C;">
+<p style="margin: 0; font-size: 18px; font-weight: 600; color: #333; font-family: 'Poppins', Arial, sans-serif;">Jared Uyehara</p>
+<p style="margin: 0; font-size: 14px; color: #666; font-family: 'Poppins', Arial, sans-serif;">Creative Director</p>
+<table style="margin-top: 10px; font-family: 'Inter', Arial, sans-serif;">
+<tbody>
+<tr>
+<td style="display: inline-block;"><img style="vertical-align: middle; filter: brightness(0) saturate(100%) invert(50%) sepia(0%) saturate(0%) hue-rotate(240deg);" src="https://cdn-icons-png.flaticon.com/16/646/646094.png" width="16" /></td>
+<td><a style="color: #666; text-decoration: none;" href="mailto:jared.uyehara@thebackninegolf.com">jared.uyehara@thebackninegolf.com</a></td>
+</tr>
+<tr>
+<td style="display: inline-block;"><img style="vertical-align: middle; filter: brightness(0) saturate(100%) invert(50%) sepia(0%) saturate(0%) hue-rotate(240deg);" src="https://cdn-icons-png.flaticon.com/16/1006/1006771.png" width="16" /></td>
+<td><a style="color: #666; text-decoration: none;" href="https://thebackninegolf.com">thebackninegolf.com</a></td>
+</tr>
+<tr>
+<td style="display: inline-block;"><img style="vertical-align: middle; filter: brightness(0) saturate(100%) invert(50%) sepia(0%) saturate(0%) hue-rotate(240deg);" src="https://cdn-icons-png.flaticon.com/16/159/159832.png" width="16" /></td>
+<td><a style="color: #666; text-decoration: none;" href="tel:+14358791433">435-879-1433</a></td>
+</tr>
+</tbody>
+</table>
+<!-- Social Media Icons (Updated to Remove Dashes) -->
+<p style="margin-top: 10px;"><span style="display: inline-block;"> <a href="https://www.facebook.com/indoorgolfstudio" target="_blank" rel="noopener"> <img style="margin-right: 8px;" src="https://img1.gimm.io/assets/social/96/native/13/facebook.png" width="24" height="24" /> </a> </span> <span style="display: inline-block;"> <a href="https://www.youtube.com/@thebackninegolf" target="_blank" rel="noopener"> <img style="margin-right: 8px;" src="https://img1.gimm.io/assets/social/96/native/13/youtube.png" width="24" height="24" /> </a> </span> <span style="display: inline-block;"> <a href="https://www.linkedin.com/company/backninegolf/" target="_blank" rel="noopener"> <img style="margin-right: 8px;" src="https://img1.gimm.io/assets/social/96/native/13/linkedin.png" width="24" height="24" /> </a> </span> <span style="display: inline-block;"> <a href="https://www.instagram.com/thebackninegolf/" target="_blank" rel="noopener"> <img style="margin-right: 8px;" src="https://img1.gimm.io/assets/social/96/native/13/instagram.png" width="24" height="24" /> </a> </span></p>
+</td>
+</tr>
+</tbody>
+</table>
